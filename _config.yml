@@ -3,10 +3,9 @@ permalink: pretty
 
 # Setup
 title: pavliuko
-url: https://pavliuko.github.io/about/
+baseurl: https://pavliuko.github.io/about/
 paginate: 10
 paginate_path: "/blog/:num/"
-baseurl: ''
 highlighter: rouge
 
 # Gems
