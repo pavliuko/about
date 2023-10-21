@@ -5,7 +5,7 @@ permalink: pretty
 title: pavliuko
 baseurl: /about
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/posts/:num/"
 highlighter: rouge
 
 # Gems
@@ -33,7 +33,7 @@ sass:
 
 # Pages list
 pages_list:
-  Blog: "/blog"
+  Posts: "/posts"
 
 author:
   name: Oleksandr Pavliuk
