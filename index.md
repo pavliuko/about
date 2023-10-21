@@ -3,7 +3,7 @@ layout: page
 title: Oleksandr Pavliuk
 ---
 
-I'm Oleksandr, a software engineer from Kyiv, Ukraine. I'm currently a senior software engineer at [CoreWillSoft](https://corewillsoft.com/), we are building an amazing product for physical security.
+I'm Oleksandr, a software engineer, from Kyiv, Ukraine. I'm currently a senior software engineer at [CoreWillSoft](https://corewillsoft.com/), we are building an amazing product for physical security.
 
 ### Follow me on
 
@@ -11,6 +11,7 @@ I'm Oleksandr, a software engineer from Kyiv, Ukraine. I'm currently a senior so
 * [LinkedIn](https://www.linkedin.com/in/aleks-pavliuk)
 
 ### What I do
+I primarily work with Swift/iOS as a developer, consultant, or leader. However, I don't limit myself to just that. I also engage in other areas of software development, conducting research, learning, and putting my knowledge into practice.
 
 * Swift
 * Kotlin (KMM)
