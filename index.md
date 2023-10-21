@@ -21,6 +21,5 @@ I'm Oleksandr, a software engineer from Kyiv, Ukraine. I'm currently a senior so
 
 [Email](mailto:pavliuk.aleksandr@gmail.com)
 
-### 🇺🇦 Ukraine
-
-Stand with Ukraine. Support Ukraine [UNITED24](https://u24.gov.ua/).
+### 🇺🇦 Stand with Ukraine
+[UNITED24](https://u24.gov.ua/)
