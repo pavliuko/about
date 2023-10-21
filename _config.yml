@@ -1,10 +1,13 @@
-# Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
-paginate: 1
-baseurl: ""
+# Permalinks
 permalink: pretty
+
+# Setup
+title: pavliuko
+url: https://pavliuko.github.io/
+paginate: 10
+baseurl: ""
+paginate_path: "/blog/:num/"
+highlighter: rouge
 
 # Gems
 plugins:
@@ -24,18 +27,19 @@ exclude:
 
 sass:
   sass_dir: _sass
-  style: :compressed
-
-# Options
+  style: compressed
 
 # Replace this value and uncomment to enable Google Analytics tracking
 # ga_analytics: UA-000000-0
 
-# Specify the author for blog posts
+# Pages list
+pages_list:
+  Blog: "/blog"
+
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Oleksandr Pavliuk
+  url: https://github.com/pavliuko
+  email: pavliuk.aleksandr@gmail.com
 
 # Custom vars
 version: 3.0.0
