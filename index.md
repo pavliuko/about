@@ -3,7 +3,7 @@ layout: page
 title: Oleksandr Pavliuk
 ---
 
-I'm Oleksandr, a software engineer, from Kyiv, Ukraine. I'm currently a senior software engineer at [CoreWillSoft](https://corewillsoft.com/), we are building an amazing product for physical security.
+I'm Oleksandr, a software engineer from Kyiv, Ukraine. I'm currently a senior software engineer at [CoreWillSoft](https://corewillsoft.com/), we are building an amazing product for physical security.
 
 ### Follow me on
 
