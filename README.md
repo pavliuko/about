@@ -8,12 +8,12 @@ Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator
 
 ![Poole](https://f.cloud.github.com/assets/98681/1834359/71ae4048-73db-11e3-9a3c-df38eb170537.png)
 
-See Poole in action with [the demo site](http://demo.getpoole.com).
+See Poole in action with [the demo site](https://demo.getpoole.com).
 
 There are currently two official themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* [Hyde](https://hyde.getpoole.com)
+* [Lanyon](https://lanyon.getpoole.com)
 
 Individual theme feedback and bug reports should be submitted to the theme's individual repository.
 
@@ -21,8 +21,6 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 ## Contents
 
 - [Usage](#usage)
-- [Options](#options)
-  - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
@@ -32,15 +30,15 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 
 ### 1. Install dependencies
 
-Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem:
+Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem and related dependencies:
 
 ```bash
-$ gem install jekyll
+$ gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
 ```
 
 **Windows users:** Windows users have a bit more work to do, but luckily [@juthilo](https://github.com/juthilo) has your back with his [Run Jekyll on Windows](https://github.com/juthilo/run-jekyll-on-windows) guide.
 
-**Need syntax highlighting?** Poole includes support for Pygments or Rouge, so install your gem of choice to make use of the built-in styling. Read more about this [in the Jekyll docs](http://jekyllrb.com/docs/templates/#code_snippet_highlighting).
+**Need syntax highlighting?** Poole includes support for Pygments or Rouge, so install your gem of choice to make use of the built-in styling. Read more about this in the [Jekyll docs](https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting).
 
 ### 2a. Quick start
 
@@ -48,7 +46,7 @@ To help anyone with any level of familiarity with Jekyll quickly get started, Po
 
 ### 2b. Roll your own Jekyll site
 
-Folks wishing to use Jekyll's templates and styles can do so with a little bit of manual labor. Download Poole and then copy what you need (likely `_layouts/`, `*.html` files, `atom.xml` for RSS, and `public/` for CSS, JS, etc.).
+Folks wishing to use Jekyll's templates and styles can do so with a little bit of manual labor. Download Poole and then copy what you need (likely `_layouts/`, `*.html` files, `atom.xml` for RSS, and `assets/` for CSS, JS, etc.).
 
 ### 3. Running locally
 
@@ -70,33 +68,6 @@ If you host your code on GitHub, you can use [GitHub Pages](https://pages.github
 3. Done! Head to your GitHub Pages URL or custom domain.
 
 No matter your production or hosting setup, be sure to verify the `baseurl` option file and `CNAME` settings. Not applying this correctly can mean broken styles on your site.
-
-## Options
-
-Poole includes some customizable options, typically applied via classes on the `<body>` element.
-
-
-### Rems, `font-size`, and scaling
-
-Poole is built almost entirely with `rem`s (instead of pixels). `rem`s are like `em`s, but instead of building on the immediate parent's `font-size`, they build on the root element, `<html>`.
-
-By default, we use the following:
-
-```css
-html {
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-```
-
-To easily scale your site's typography and components, simply customize the base `font-size`s here.
-
 
 ## Development
 
