@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Claude Code keeps ignoring my skills. I built a hook to fix it."
+title: "Claude Code keeps ignoring skills. I built a hook to fix it."
 ---
 
 I kept reminding Claude it has skills. Claude kept ignoring them.
