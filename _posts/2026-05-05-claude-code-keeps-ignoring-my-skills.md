@@ -13,7 +13,17 @@ A skill activates when Claude reads its description and decides the prompt match
 
 ## What actually helps
 
-**Rewrite every description.** Switch polite phrasing to "ALWAYS invoke this skill when…" with an explicit don't-do-it-directly clause. Helps, but you have to do it for every skill, and you can't fix descriptions on skills shipped by someone else's plugin.
+**Write descriptions as directives, not invitations.** The default "Use when…" reads like a suggestion Claude can pass on. Replace it with "ALWAYS invoke this skill when…", list the exact triggers, and add a "do not do X directly — use this skill first" clause that names the tool or action Claude would otherwise reach for. Here's what one of mine looks like after the rewrite:
+
+```yaml
+description: Creates or edits a GitHub Pull Request. ALWAYS invoke
+  this skill when the user asks to create a PR, open a pull request,
+  draft a PR, submit code for review, or edit a PR title or
+  description. Do not run `gh pr create` / `gh pr edit` or write a PR
+  body directly — use this skill first.
+```
+
+Helps, but you have to do it for every skill, and you can't fix descriptions on skills shipped by someone else's plugin.
 
 **Use a `UserPromptSubmit` hook.** Claude Code runs it on every prompt and lets it inject context the model has to read. The hook decides what Claude sees, so descriptions stop being the only signal. Works on any skill, regardless of who wrote the description.
 
